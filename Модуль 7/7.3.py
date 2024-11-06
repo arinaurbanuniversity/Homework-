@@ -42,7 +42,7 @@ class WordsFinder:
         return results
 
 
-finder2 = WordsFinder('file1.txt')
+finder2 = WordsFinder('../file1.txt')
 print(finder2.get_all_words())
 print(finder2.find('TEXT'))
 print(finder2.count('teXT'))
